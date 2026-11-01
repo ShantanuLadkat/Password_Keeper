@@ -4,9 +4,15 @@ passwords = {}
 
 
 while True:
+    print("\n===== PASSWORD KEEPER =====")
+    print("1. Add Password")
+    print("2. Search Password")
+    print("3. View All Accounts")
+    print("4. Delete Account")
+    print("5. Exit")
 
     choice = input("Enter your choice: ")
-
+    
     if choice == "1":
         account = input("Enter account name: ")
         password = input("Enter password: ")
