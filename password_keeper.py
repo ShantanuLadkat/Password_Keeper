@@ -1,3 +1,8 @@
+# Password Keeper
+
+passwords = {}
+
+
 while True:
 
     choice = input("Enter your choice: ")
